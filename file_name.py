@@ -1,4 +1,5 @@
 #Задание 1
+""""
 s = "Hello, World!"
 print(s[0])
 print(s[-1])
@@ -18,3 +19,11 @@ for i in str:
     if i in "aeiouAEIOU":
         count+=1
 print(count)
+"""
+#Задание 4
+str = input()
+rez=""
+for i in range(len(str)):
+    if i==0 or str[i] != str[i-1]:
+        rez+=str[i]
+print(rez)
